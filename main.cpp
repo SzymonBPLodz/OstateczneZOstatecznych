@@ -1,14 +1,12 @@
 #include <iostream>
 
+int policz (int a, int b) {
+    return a*b;
+}
 
 int main() {
 
-    std::cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++) {
-        std::cout << "i = " << i << std::endl;
-    }
-
+    std::cout << "Hello, World!" << std::endl;
+    std::cout << "W pierwszym branchu 2+3 = " << Policz(2,3) <<  std::endl;
     return 0;
-
 }
